@@ -11,10 +11,15 @@ html,body,section{
 }
 .namewebsite{
     text-align: center;
-    font-size: 2.4rem;
     margin-top: 50px;
+    margin-bottom: 10px;
+}
+.namewebsite a b{
+    font-size: 2.4rem;
     color: #2fb765;
-    margin-bottom: -10px;
+}
+.namewebsite a:hover{
+    text-decoration: none;
 }
 .title{
     text-align: center;
@@ -27,8 +32,8 @@ html,body,section{
 }
 .input input{
     font-size: 1.2rem;
-    width: 600px;
-    padding: 10px 10px 10px 30px;
+    width: 35%;
+    padding: 10px 10px 10px 20px;
     border: #2fb765 solid 2px;
     border-radius: 5px;
     margin: 10px 5px 10px 5px;
@@ -68,12 +73,33 @@ button:focus{
     color: #525352;
     margin-left: 5px;
     margin-right: 5px;
+    display:inline-block;
+    border:0;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+
 }
 .icon a:hover{
     color: #20884a;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
 }
 .footer{
-    margin-top: 53px;
+    margin-top: 52px;
     display: flex;
     align-items: center;
     height: 40px;
@@ -83,6 +109,7 @@ button:focus{
 .review{
     text-align: center;
     margin-top: 40px;
+    height: 250px;
 }
 .format{
     text-align: center;
